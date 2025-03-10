@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Granica Docs",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,92 +11,106 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Granica Crunch",
         "groups": [
           {
             "group": "Get Started",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "get-started/introduction",
+              "get-started/quickstart",
+              "get-started/how-it-works"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Data Formats",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
+              "data-formats/data-types",
+              "data-formats/table-formats",
+              "data-formats/data-lakes"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Use-Cases",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "integrations/batch",
+              "integrations/streaming",
+              "integrations/cross-region"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "integrations/apache-spark",
+              {
+                "group": "Table Formats",
+                "pages": [
+                  {
+                    "group": "Hive",
+                    "pages": [
+                      "integrations/apache-spark/table-formats/hive/batch",
+                      "integrations/apache-spark/table-formats/hive/streaming"
+                    ]
+                  },
+                  {
+                    "group": "Delta",
+                    "pages": [
+                      "integrations/apache-spark/table-formats/delta/batch",
+                      "integrations/apache-spark/table-formats/delta/streaming"
+                    ]
+                  },
+                  {
+                    "group": "Iceberg",
+                    "pages": [
+                      "integrations/apache-spark/table-formats/iceberg/batch",
+                      "integrations/apache-spark/table-formats/iceberg/streaming"
+                    ]
+                  }
+                ]
+              },
+              "integrations/google-cloud-dataproc",
+              {
+                "group": "Table Formats",
+                "pages": [
+                  {
+                    "group": "Hive",
+                    "pages": [
+                      "integrations/google-cloud-dataproc/table-formats/hive/batch",
+                      "integrations/google-cloud-dataproc/table-formats/hive/streaming"
+                    ]
+                  },
+                  {
+                    "group": "Delta",
+                    "pages": [
+                      "integrations/google-cloud-dataproc/table-formats/delta/batch",
+                      "integrations/google-cloud-dataproc/table-formats/delta/streaming"
+                    ]
+                  },
+                  {
+                    "group": "Iceberg",
+                    "pages": [
+                      "integrations/google-cloud-dataproc/table-formats/iceberg/batch",
+                      "integrations/google-cloud-dataproc/table-formats/iceberg/streaming"
+                    ]
+                  }
+                ]
+              }
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    ]
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@granica.ai"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
       "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
 }
