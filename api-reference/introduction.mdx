@@ -1,33 +1,47 @@
 ---
-title: 'Introduction'
-description: 'Example section for showcasing API endpoints'
+title: 'Introduction to the API'
+description: 'Overview of the Granica Crunch API capabilities and integration options'
 ---
 
 <Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
+  This introduction provides an overview of the Granica Crunch API. For detailed endpoint documentation, please refer to the OpenAPI specification.
 </Note>
 
-## Welcome
+## Welcome to the Granica Crunch API
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+The Granica Crunch API allows you to programmatically interact with our data processing platform, enabling you to integrate our powerful capabilities directly into your workflows and applications.
 
 <Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
+  title="API Specification"
+  icon="code"
+  href="/api-reference/openapi.json"
 >
-  View the OpenAPI specification file
+  Browse the complete OpenAPI specification
 </Card>
 
-## Authentication
+## What You Can Build
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
+With the Granica Crunch API, you can:
 
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```
+- Automate data processing workflows across various table formats (Hive, Delta, Iceberg)
+- Integrate with your existing data infrastructure including Apache Spark, Google Cloud Dataproc, and other supported platforms
+- Implement both batch and streaming data processing solutions
+- Manage cross-region data operations programmatically
+- Monitor and control your data processing tasks
+
+## Getting Started
+
+To start using the Granica Crunch API:
+
+1. **Authentication**: All API requests require authentication using Bearer tokens
+2. **Explore Endpoints**: Review our OpenAPI specification to understand available endpoints
+3. **Test Requests**: Use the API playground to test requests before implementing them
+4. **Integration**: Follow our integration guides for your specific environment
+
+## Example Use Cases
+
+- **Automated Data Pipeline Integration**: Trigger data processing jobs from your CI/CD pipeline
+- **Custom Dashboards**: Build monitoring dashboards that display real-time processing metrics
+- **Cross-Platform Orchestration**: Coordinate data processing across multiple platforms and regions
+
+For detailed implementation examples and code snippets, check out our integration documentation.

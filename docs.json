@@ -16,84 +16,35 @@
           {
             "group": "Get Started",
             "pages": [
-              "get-started/introduction",
               "get-started/quickstart",
-              "get-started/how-it-works"
+              "get-started/overview",
+              "get-started/calculator",
+              "get-started/how-It-Works"
             ]
           },
           {
             "group": "Data Formats",
             "pages": [
-              "data-formats/data-types",
-              "data-formats/table-formats",
-              "data-formats/data-lakes"
+              "data-formats/data-Types",
+              "data-formats/table-Formats"
             ]
           },
           {
-            "group": "Use-Cases",
+            "group": "Data Engines",
             "pages": [
-              "integrations/batch",
-              "integrations/streaming",
-              "integrations/cross-region"
+              "data-lakes/apache-Spark",
+              "data-lakes/google-Cloud-Dataproc",
+              "data-lakes/amazon-EMR",
+              "data-lakes/databricks",
+              "data-lakes/bigQuery"
             ]
           },
           {
             "group": "Integrations",
             "pages": [
-              "integrations/apache-spark",
-              {
-                "group": "Table Formats",
-                "pages": [
-                  {
-                    "group": "Hive",
-                    "pages": [
-                      "integrations/apache-spark/table-formats/hive/batch",
-                      "integrations/apache-spark/table-formats/hive/streaming"
-                    ]
-                  },
-                  {
-                    "group": "Delta",
-                    "pages": [
-                      "integrations/apache-spark/table-formats/delta/batch",
-                      "integrations/apache-spark/table-formats/delta/streaming"
-                    ]
-                  },
-                  {
-                    "group": "Iceberg",
-                    "pages": [
-                      "integrations/apache-spark/table-formats/iceberg/batch",
-                      "integrations/apache-spark/table-formats/iceberg/streaming"
-                    ]
-                  }
-                ]
-              },
-              "integrations/google-cloud-dataproc",
-              {
-                "group": "Table Formats",
-                "pages": [
-                  {
-                    "group": "Hive",
-                    "pages": [
-                      "integrations/google-cloud-dataproc/table-formats/hive/batch",
-                      "integrations/google-cloud-dataproc/table-formats/hive/streaming"
-                    ]
-                  },
-                  {
-                    "group": "Delta",
-                    "pages": [
-                      "integrations/google-cloud-dataproc/table-formats/delta/batch",
-                      "integrations/google-cloud-dataproc/table-formats/delta/streaming"
-                    ]
-                  },
-                  {
-                    "group": "Iceberg",
-                    "pages": [
-                      "integrations/google-cloud-dataproc/table-formats/iceberg/batch",
-                      "integrations/google-cloud-dataproc/table-formats/iceberg/streaming"
-                    ]
-                  }
-                ]
-              }
+              "integrations/batch",
+              "integrations/streaming",
+              "integrations/transfer"
             ]
           }
         ]
