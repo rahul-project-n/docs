@@ -17,7 +17,7 @@
             "group": "Get Started",
             "pages": [
               "get-started/quickstart",
-              "get-started/Introduction",
+              "get-started/overview",
               "get-started/calculator",
               "get-started/how-It-Works"
             ]
